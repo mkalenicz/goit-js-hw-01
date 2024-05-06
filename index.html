@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>goit-js-hw-01</title>
+  </head>
+  <body>
+    <h1>goit-js-hw-01</h1>
+    <script src="task-1.js"></script>
+    <script src="task-2.js"></script>
+    <script src="task-3.js"></script>
+    <script>
+      // Wykonanie testów funkcji makeTransaction
+      console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
+      console.log(makeTransaction(3, 1000)); // "You ordered 3 droids worth 3000 credits!"
+      console.log(makeTransaction(10, 500)); // "You ordered 10 droids worth 5000 credits!"
+
+      // Wykonanie testów funkcji getShippingMessage
+      console.log(getShippingMessage('Australia', 120, 50));
+      console.log(getShippingMessage('Germany', 80, 20));
+      console.log(getShippingMessage('Sweden', 100, 20));
+
+      // Wykonanie testów funkcji getElementWidth
+      console.log(getElementWidth('50px', '8px', '4px'));
+      console.log(getElementWidth('60px', '12px', '8.5px'));
+      console.log(getElementWidth('200px', '0px', '0px'));
+    </script>
+  </body>
+</html>
